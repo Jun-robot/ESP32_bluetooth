@@ -8,9 +8,8 @@ void setup() {
 
   pinMode(2, OUTPUT);
 
-  //デバイス名は"ESP32"としました。サンプルスケッチではESP32testとなっています。
 
-  Serial.println("The device started, now you can pair it with bluetooth!");
+  Serial.println("you can pair it with bluetooth!");
 
 
   digitalWrite(2, HIGH);
